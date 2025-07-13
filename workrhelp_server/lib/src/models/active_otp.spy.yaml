@@ -1,0 +1,7 @@
+class: ActiveOTP
+table: active_otp
+
+fields:
+    requestId: int, relation(parent=requests)
+    otp: int
+    madeAt: DateTime

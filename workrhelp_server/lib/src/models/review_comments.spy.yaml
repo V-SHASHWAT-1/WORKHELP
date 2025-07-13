@@ -1,0 +1,9 @@
+class: ReviewComments
+table: review_comments
+
+fields:
+    madeBy: int, relation(parent=user)
+    forHelper: int, relation(parent=user)
+    madeAt: DateTime
+    stars: int
+    comment: String

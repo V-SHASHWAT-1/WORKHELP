@@ -1,0 +1,7 @@
+class: Ratings
+table: ratings
+
+fields:
+    helperId: int, relation(parent=user)
+    cumulativeRating: double
+    totalRatings: int

@@ -1,0 +1,11 @@
+class: User
+table: user
+
+fields:
+    userInfoId: int
+    name: String
+    dob: DateTime?
+    gender: String
+    avatar: String
+    contact: int
+    accountType: String

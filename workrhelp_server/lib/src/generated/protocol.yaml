@@ -1,0 +1,18 @@
+account:
+  - createAccount:
+  - fetchAccount:
+  - fetchHelpers:
+example:
+  - hello:
+misc:
+  - uploadImage:
+  - getUploadDescription:
+request:
+  - createRequest:
+  - acceptRequest:
+  - verifyOtpAndStartProgress:
+  - markAsCompleted:
+  - cancelRequest:
+  - fetchUserRequest:
+  - fetchActiveUserRequest:
+  - fetchActiveRequest:

@@ -1,0 +1,9 @@
+class: WorksIn
+table: works_in
+
+fields:
+    helperId: int, relation(parent=user)
+    businessId: int, relation(parent=business)
+    role: String
+    startDate: DateTime
+    endDate: DateTime?

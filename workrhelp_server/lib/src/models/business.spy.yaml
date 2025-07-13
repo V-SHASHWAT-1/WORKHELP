@@ -1,0 +1,7 @@
+class: Business
+table: business
+
+fields:
+    title: String
+    overview: String
+    location: List<Location>

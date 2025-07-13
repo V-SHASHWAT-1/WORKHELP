@@ -1,0 +1,11 @@
+class: Requests
+table: requests
+
+fields:
+    madeBy: int, relation(parent=user)
+    madeAt: DateTime
+    acceptedBy: int?, relation(parent=user)
+    description: String
+    images: List<String>
+    location: Location
+    status: String
